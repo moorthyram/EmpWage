@@ -7,6 +7,7 @@
         {
             // Constants
             int Emp_Full_TimePresent = 1;
+            int Emp_Part_TimePresent = 2;
             int Emp_Rate_per_Hour = 20;
 
             // Variables
@@ -16,9 +17,13 @@
             Random random = new Random();
 
             // Computation
-            int empCheck = random.Next(0, 2);
+            int empCheck = random.Next(0, 3);
 
-            if (empCheck == Emp_Full_TimePresent)
+            if (empCheck == Emp_Part_TimePresent)
+            {
+                empHrs = 4;
+            }
+            else if (empCheck == Emp_Full_TimePresent)
             {
                 empHrs = 8;
             }
