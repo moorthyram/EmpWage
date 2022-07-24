@@ -1,0 +1,15 @@
+C:\Moorthy\ASP.NET\EmpWageFullProgram\bin\Debug\net6.0\EmpWageFullProgram.exe
+C:\Moorthy\ASP.NET\EmpWageFullProgram\bin\Debug\net6.0\EmpWageFullProgram.deps.json
+C:\Moorthy\ASP.NET\EmpWageFullProgram\bin\Debug\net6.0\EmpWageFullProgram.runtimeconfig.json
+C:\Moorthy\ASP.NET\EmpWageFullProgram\bin\Debug\net6.0\EmpWageFullProgram.dll
+C:\Moorthy\ASP.NET\EmpWageFullProgram\bin\Debug\net6.0\EmpWageFullProgram.pdb
+C:\Moorthy\ASP.NET\EmpWageFullProgram\obj\Debug\net6.0\EmpWageFullProgram.csproj.AssemblyReference.cache
+C:\Moorthy\ASP.NET\EmpWageFullProgram\obj\Debug\net6.0\EmpWageFullProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Moorthy\ASP.NET\EmpWageFullProgram\obj\Debug\net6.0\EmpWageFullProgram.AssemblyInfoInputs.cache
+C:\Moorthy\ASP.NET\EmpWageFullProgram\obj\Debug\net6.0\EmpWageFullProgram.AssemblyInfo.cs
+C:\Moorthy\ASP.NET\EmpWageFullProgram\obj\Debug\net6.0\EmpWageFullProgram.csproj.CoreCompileInputs.cache
+C:\Moorthy\ASP.NET\EmpWageFullProgram\obj\Debug\net6.0\EmpWageFullProgram.dll
+C:\Moorthy\ASP.NET\EmpWageFullProgram\obj\Debug\net6.0\refint\EmpWageFullProgram.dll
+C:\Moorthy\ASP.NET\EmpWageFullProgram\obj\Debug\net6.0\EmpWageFullProgram.pdb
+C:\Moorthy\ASP.NET\EmpWageFullProgram\obj\Debug\net6.0\EmpWageFullProgram.genruntimeconfig.cache
+C:\Moorthy\ASP.NET\EmpWageFullProgram\obj\Debug\net6.0\ref\EmpWageFullProgram.dll
