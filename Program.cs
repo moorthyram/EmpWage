@@ -5,8 +5,13 @@
     {
         static void Main(string[] args)
         {
-            // constants
+            // Constants
             int Emp_Full_TimePresent = 1;
+            int Emp_Rate_per_Hour = 20;
+
+            // Variables
+            int empWage = 0;
+            int empHrs = 0;
 
             Random random = new Random();
 
@@ -15,12 +20,14 @@
 
             if (empCheck == Emp_Full_TimePresent)
             {
-                Console.WriteLine("Employee is present");
+                empHrs = 8;
             }
             else
             {
-                Console.WriteLine("Employee is Absent");
+                empHrs = 0;
             }
+            empWage = empHrs * Emp_Rate_per_Hour;
+            Console.WriteLine("Emp Wage : " + empWage);
         }
     }
 }
