@@ -3,12 +3,11 @@
 {
     class Program
     {
+        public const int Emp_Full_TimePresent = 1;
+        public const int Emp_Part_TimePresent = 2;
+        public const int Emp_Rate_per_Hour = 20;
         static void Main(string[] args)
         {
-            // Constants
-            int Emp_Full_TimePresent = 1;
-            int Emp_Part_TimePresent = 2;
-            int Emp_Rate_per_Hour = 20;
 
             // Variables
             int empWage = 0;
@@ -19,17 +18,17 @@
             // Computation
             int empCheck = random.Next(0, 3);
 
-            if (empCheck == Emp_Part_TimePresent)
+            switch (empCheck)
             {
-                empHrs = 4;
-            }
-            else if (empCheck == Emp_Full_TimePresent)
-            {
-                empHrs = 8;
-            }
-            else
-            {
-                empHrs = 0;
+                case Emp_Part_TimePresent: 
+                    empHrs = 4; 
+                    break;
+                case Emp_Full_TimePresent: 
+                    empHrs = 8; 
+                    break;
+                default: 
+                    empHrs = 0; 
+                    break;
             }
             empWage = empHrs * Emp_Rate_per_Hour;
             Console.WriteLine("Emp Wage : " + empWage);
